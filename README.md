@@ -26,19 +26,16 @@ This webpage shows a photography website which has a responsive sidebar menu wit
 
 #### Imp Logic related to checkbox
 
-1. 
-#check{
+1. #check{
     display: none;
 }
 
-2. 
-'~' is the sibling selector & the sibling for the 'checkbox' are '.sidebar_menu' & '.btn_one i.e. Hamburger icon'.
+2. '~' is the sibling selector & the sibling for the 'checkbox' are '.sidebar_menu' & '.btn_one i.e. Hamburger icon'.
 #check:checked ~ .sidebar_menu{ 
     left: 0;
 }
 
-3. 
-#check:checked ~ .btn_one{
+3. #check:checked ~ .btn_one{
     opacity: 0;
 }
 _________________________________________________________________
