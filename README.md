@@ -31,6 +31,7 @@ This webpage shows a photography website which has a responsive sidebar menu wit
 }
 
 2. '~' is the sibling selector & the sibling for the 'checkbox' are '.sidebar_menu' & '.btn_one i.e. Hamburger icon'.
+
 #check:checked ~ .sidebar_menu{ 
     left: 0;
 }
